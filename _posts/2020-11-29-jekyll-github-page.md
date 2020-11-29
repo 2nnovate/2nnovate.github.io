@@ -87,6 +87,10 @@ fork 가 완료되면 자동으로 나의 복사된 repository 로 이동되는�
 
 이렇게 하면 간단히 jekyll theme 를 내 page 에 적용할 수 있다.
 
+원하는 theme 를 적용한 뒤, git clone 을 통해 로컬에 환경을 구축하고 `_config.yml` 을 수정하자.
+
+`jekyll serve` 를 터미널에 입력하여 로컬에서 수정한 페이지를 바로바로 확인 할 수 있다.
+
 ## end
 
 jekyll 활용법을 숙지하여 원하는 테마 위에서 content 를 앞으로 잘 쌓길 바란다.
