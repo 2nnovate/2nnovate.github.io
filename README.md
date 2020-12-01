@@ -6,25 +6,25 @@ layout: page
 
 ## profile
 
-Java 공부하는 Javascript 개발자 Eloy 입니다.
+java 공부하는 javascript 개발자 Eloy 입니다.
  - email: 2nnovate0810@gmail.com
  - github page: [Github](https://github.com/2nnovate)
 
 ## Stack
 
- - Javascript
+ - javascript
  - ES6
  - MySQL
  - NodeJS
  - Express
  - React
  - git
- - Java
+ - java
 
 ## project
 
 - jober 전자 인사문서 서비스
-- jober 근로/프리랜서 계약서 스비스
+- jober 근로/프리랜서 계약서 서비스
 
 ## 이력사항
 
