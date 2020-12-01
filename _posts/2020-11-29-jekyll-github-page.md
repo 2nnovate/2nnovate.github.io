@@ -1,6 +1,7 @@
 ---
 title: "github page + jekyll 으로 정적 블로그 페이지 만들기"
 layout: post
+categories: jekyll
 ---
 
 ## summary
