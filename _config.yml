@@ -1,7 +1,7 @@
 title: "Eloy's devlog"
 author: "Eloy"
-permalink: /:title/
 description: "java 공부하는 javascript 개발자, eloy 입니다."
+permalink: /:categories/:title/
 lang: "ko"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -23,6 +23,7 @@ minimal: false               # use simpler style
 
 navigation:
   - {file: "index.html", icon: home}
+  - {file: "categories.html", title: "Category"}
   - {file: "README.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
