@@ -16,7 +16,7 @@ categories: jekyll
 
 > _config.yml 파일은 페이지 전역에 적용되는 환경설정을 하는 파일이다.
 
-_config.yml 에 설정한 옵션은 html 파일에서 site 전역변수로 사용할 수 있다.
+_config.yml 에 설정한 옵션은 jekyll 에서 site 전역변수로 사용할 수 있다.
 _config.yml 에 lang 을 한국어로 설정하고 html 파일에서 사용하는 예는 아래와 같다.
 
 ```yaml
@@ -24,7 +24,9 @@ lang: "ko"
 ```
 
 ```html
+{% raw  %}
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% endraw  %}
 ```
 
 ### 1-1) path variable 설정
@@ -40,13 +42,13 @@ permalink 는 페이지의 url 을 설정하는 option 으로, `:` 를 사용하
 permalink: /:categories/:title/
 ```
 
-위와 같이 permalink 를 설정하면 각 포스트의 yml 에 설정한 categories 와 page 파일의 제목으로 url 이 생성된다.
+위와 같이 permalink 를 설정하면 각 포스트의 yml 에 설정한 categories 와 page 파일의 파일명으로 url 이 생성된다.
 
 ### 1-2) navigation 설정
 
 > 상위 메뉴로 사용할 navigation 을 설정한다.
 
-페이지에서 사용할 네비게이션을 설정한다. navigation option 을 사용하고 사용법은 아래와 같다.
+페이지에서 사용할 네비게이션을 설정한다. navigation option 을 사용하고, 사용법은 아래와 같다.
 
 ```yaml
 navigation:
@@ -55,7 +57,7 @@ navigation:
   - {file: "README.md", title: "About"}
 ```
 
-**permalink 와 navigation option 을 통해 전역 환경설정을 완료했다. 이제 실제 html 페이지에서 이를 사용해보자.**
+**permalink 와 navigation option 을 통해 전역 환경설정을 완료했다. 이제 실제 jekyll 페이지(md, html)에서 이를 사용해보자.**
 
 ## 2. liquid
 
@@ -86,6 +88,7 @@ _layout 에 있는 파일은 post 등 각 파일 상단의 yml 설정에서 layo
 <html>
     <head>...</head>
     <body>
+        <div>안녕하세요.</div>
         {{ "{{ content " }}}}
     </body>
 </html>
@@ -99,12 +102,17 @@ _layout 에 있는 파일은 post 등 각 파일 상단의 yml 설정에서 layo
 layout: default
 ---
 {% endraw %}
-안녕하세요.
+저는 Eloy 입니다.
 ```
 *index.html*
 
 위와 같이 default layout 을 설정하고 페이지의 yml 설정에서 layout 을 default 로 설정하면,
-default.html 의 content 내용 안에 '안녕하세요'가 표시된다.
+default.html 의 content 내용 안에 '저는 Eloy 입니다.'가 표시되어, 결과물은 아래와 같이 출력된다.
+
+```
+안녕하세요.
+저는 Eloy 입니다.
+```
 
 #### 조각파일 (includes) 및 변수 (variables)
 
@@ -203,7 +211,7 @@ layout: page
 > 포스팅을 작성할 때 yml 설정에 categories 를 설정한다.
 
 _posts 에 글을 작성할 때 yml 설정에 categories 를 설정한다.
-이를 설정하면 자동으로 site.category 에 해당 카테고리가 저장된다.
+이를 설정하면 자동으로 site.category 변수에 해당 카테고리가 저장된다.
 categories 설정은 아래와 같이 한다.
 
 ```markdown
