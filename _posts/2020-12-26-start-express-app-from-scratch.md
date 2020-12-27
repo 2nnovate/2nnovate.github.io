@@ -85,7 +85,7 @@ app.get 의 get은 http 메소드를 의미하며, get 이외에도 post, delete
 터미널에서 `node app.js` 를 통해 node 앱을 실행시킨다.
 *nodemon 을 사용하는 경우 `nodemon app.js`로 실행시키면 변경사항이 있을 때 마다 앱을 자동으로 재실행 해준다.*
 
-## summary
+## end
 
 Express 프레임워크를 이용하여 간단히 서버 어플리케이션을 만들어 보았다.
 http 의 다양한 메소드를 사용하여 자신만의 앱을 만들어 보자.
