@@ -1,7 +1,7 @@
 ---
 title: "AWS CodePipeline, CodeBuild 를 통한 지속적 배포환경 구축"
 layout: post
-categories: [AWS, CodePipeline, CodeBuild CI/CD]
+categories: [AWS, CodePipeline, CodeBuild, CI/CD]
 ---
 
 ## summary
