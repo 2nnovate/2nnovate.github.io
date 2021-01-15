@@ -93,7 +93,7 @@ CodePipeline 을 이용하면 github 의 특정 repository 가 변경된 것을 
 
 'Authorize AWS Connector for Github' 버튼을 눌러 인증을 완료하자.
 인증 완료 후 새 Github 앱 설치를 통해 연결할 계정(혹은 TEAM)을 선택하자.
-모든 저장소에 권한을 주거아 권한을 줄 저장소를 선택할 수 있다.
+이 때 권한을 줄 저장소를 선택할 수 있다.
 본 포스팅에서는 모든 저장소에 권한을 주는 Github 앱을 생성할 것이기 때문에 'app repositories' 옵션을 선택하고 진행한다.
 
 ![link to github](/assets/images/link-to-github.png)
