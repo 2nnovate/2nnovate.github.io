@@ -1,7 +1,7 @@
 ---
 title: "serverless 프레임워크를 사용한 AWS lambda 배포 및 사용"
 layout: post
-categories: [AWS, lambda]
+categories: [AWS, lambda, Serverless]
 ---
 
 ## Summary

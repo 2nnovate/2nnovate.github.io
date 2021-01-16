@@ -322,7 +322,7 @@ export async function getServerSideProps() {
 
 자세한 data-fetching 에 대한 내용은 [공식문서](https://nextjs.org/docs/basic-features/data-fetching)를 참고하자.
 
-## summary
+## end
 
 Next.js 를 통해 webpack 설정등을 건너뛰고 빠르게 SSR 페이지를 만들어 볼 수 있었다.
 가볍고 빠른 SSR 클라이언트를 사용하길 원한다면 고려해보자.

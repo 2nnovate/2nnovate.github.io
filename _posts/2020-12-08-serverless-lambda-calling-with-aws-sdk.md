@@ -1,7 +1,7 @@
 ---
 title: "nodejs 어플리케이션에서 aws-sdk 를 활용해 lambda 함수 호출하기"
 layout: post
-categories: [AWS, lambda, nodejs]
+categories: [AWS, lambda, nodejs, Serverless]
 ---
 
 ## summary
