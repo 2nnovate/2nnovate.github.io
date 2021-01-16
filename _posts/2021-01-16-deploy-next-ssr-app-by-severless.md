@@ -95,7 +95,7 @@ option 을 customize 하는 것은 [공식문서](https://www.serverless.com/plu
 
 설정을 완료한 뒤, 터미널에서 `serveless` 를 실행하면 Serverless-next.js 가 CloudFormation 설정을 통해 S3, CloudFront, Lambda@Edge 를 자동으로 구성하여 배포한다.
 
-![Serverless-next.js deploy result](/assets/images/serverless-nextjs-deploy-result)
+![Serverless-next.js deploy result](/assets/images/serverless-nextjs-deploy-result.png)
 
 결과에 있는 appUrl 로 접속하면 배포 결과를 확인 할 수 있다.
 물론, domain 설정도 가능하다. [공식문서](https://www.serverless.com/plugins/serverless-nextjs-plugin/)를 참고하자.
