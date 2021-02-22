@@ -19,7 +19,6 @@ node 서버 개발자 Eloy 입니다.
  - Express
  - React
  - git
- - java
 
 ## project
 
