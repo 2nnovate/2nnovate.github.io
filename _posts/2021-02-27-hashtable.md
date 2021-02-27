@@ -211,7 +211,7 @@ console.log(linkedList.isEmpty);
 
 ![linked list test result](/assets/images/linked-list-test-result.png)
 
-*전체 코드는 [링크](https://github.com/2nnovate/DSA/blob/master/list/linkedList.js)에서 볼 수 있다.*
+*전체 코드는 [링크](https://github.com/2nnovate/DSA/blob/master/dataStructures/linear/list/linkedList.js)에서 볼 수 있다.*
 
 ### 해시 테이블 구현
 
@@ -348,7 +348,7 @@ console.log('has peter?: ', hashTable.has('peter'));
 
 ![hash table test result](/assets/images/hash-table-test-result.png)
 
-*전체 코드는 [링크](https://github.com/2nnovate/DSA/blob/master/hash/HashTable.js)에서 볼 수 있다.*
+*전체 코드는 [링크](https://github.com/2nnovate/DSA/blob/master/dataStructures/nonLinear/hash/HashTable.js)에서 볼 수 있다.*
 
 ## end
 
