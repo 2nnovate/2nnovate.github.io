@@ -74,6 +74,7 @@ console.log('(after clear) size', stack.size);
 console.log('(after clear) isEmpty', stack.isEmpty);
 ```
 결과는 다음과 같다.
+
 ![stack test result](/assets/images/stack-test-result.png)
 
 *전체 코드는 [링크](https://github.com/2nnovate/DSA/blob/master/dataStructures/linear/stack/index.js)에서 확인할 수 있다.*
@@ -145,6 +146,7 @@ console.log('(after clear) size', queue.size);
 console.log('(after clear) isEmpty', queue.isEmpty);
 ```
 테스트의 결과는 다음과 같다.
+
 ![queue test result](/assets/images/queue-test-result.png)
 
 *전체 코드는 [링크](https://github.com/2nnovate/DSA/blob/master/dataStructures/linear/queue/index.js)에서 확인할 수 있다.*
