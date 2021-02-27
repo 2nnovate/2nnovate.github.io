@@ -1,14 +1,12 @@
 ---
-title: "javascript set, map 자료구조"
+title: "javascript Set, Map을 통해 알아보는 집합, 딕셔너리 자료구조"
 layout: post
-categories: [자료구조, javascript, set, map]
+categories: [자료구조, javascript, Set, Map, 집합, 딕셔너리]
 ---
 
 ## summary
 
 > 자바스크립트의 자료구조 set, map 에 대해서 익숙해진다.
-> 
-> 해시테이블을 구현한다.
 
 지료구조 및 알고리즘 공부를 시작했다. 비전공자이기에 약한 분야라 생각했다.
 이번 기회에 정리해 보도록 하겠다. 가장 먼저 ES6에 추가된 Set(집합), Map(딕셔너리) 에 대해 정리해보겠다.
@@ -151,53 +149,6 @@ Map 객체의 프로퍼티와 메소드를 살펴보고, hashmap 을 구현해�
 * forEach(callback[, thisArg])
   * 삽입 순으로 callback 함수를 호출한다.
   * thisArg 가 전달될 경우 callback 함수의 this 가 thisArg 로 바인딩 된다.
-  
-### 해시맵 구현
-
-```javascript
-class HashMap {
-  constructor() {
-    this._map = new Map();
-  }
-  
-  hashCode(key) {
-    var hash = 5381;
-    for (var i = 0; i< key.length; i++) {
-      hash = hash * 33 + key.charCodeAt(i);
-    }
-    return hash % 1013;
-  }
-  
-  has(key) {
-    const newKey = this.hashCode(key);
-    return this_map.has(newKey);
-  }
-  
-  set(key, value) {
-    const newKey = this.hashCode(key);
-    return this._map.set(newKey, value);
-  }
-  
-  delete(key) {
-    const newKey = this.hashCode(key);
-    return this._map.delete(newKey);
-  }
-
-  clear() {
-    this._map.clear();
-  }
-  
-  entries() {
-    return this._map.entries();
-  }
-}
-
-// Examples
-const password = new HashMap();
-password.set('eloy', '1234');
-password.set('hanee', 'qwer');
-console.log([...password.entries()]); // [[697, "1234"], [963, "qwer"]]
-```
 
 ## End
 
