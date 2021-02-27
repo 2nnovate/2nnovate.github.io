@@ -21,8 +21,8 @@ categories: [자료구조, 알고리즘]
   * 배열
   * 리스트
     * [연결 리스트]({% post_url 2021-02-27-hashtable %})
-  * 스택
-  * 큐
+  * [스택]({% post_url 2021-02-27-stack-and-queue %})
+  * [큐]({% post_url 2021-02-27-stack-and-queue %})
 * 비선형 데이터 구조
   * [집합]({% post_url 2021-02-22-javascript-set-map %})
   * [딕셔너리]({% post_url 2021-02-22-javascript-set-map %})
@@ -54,6 +54,8 @@ categories: [자료구조, 알고리즘]
   * 버킷 정렬
   * 기수 정렬
 * 경로 탐색 알고리즘
+  * 너비 우선 탐색(BFS)
+  * 높이 우선 탐색(DFS)
 * 군집화 알고리즘
 
 ## 기타
