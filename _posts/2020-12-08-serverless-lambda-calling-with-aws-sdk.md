@@ -57,7 +57,7 @@ module.exports.capitalize = async (event, context, callback) => {
 
 기존과 달라진 점은 함수 매개변수가 3개로 늘어났다는 점이다.
 각각 parameter 를 간략히 설명하면 다음과 같다.
-* event: 해당 람다 함수를 호출할 떄의 정보를 포함한다.
+* event: 해당 람다 함수를 호출할 때의 정보를 포함한다.
 * context: 호출, 함수 및 설정에 대한 정보를 포함한다.
 * callback: 응담을 전달하기 위한 함수로, 첫 번째 인자로는 Error, 두 번째 인자는 응답 객체를 사용한다.
 
