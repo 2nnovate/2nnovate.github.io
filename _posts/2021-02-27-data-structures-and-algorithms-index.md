@@ -36,7 +36,7 @@ categories: [자료구조, 알고리즘]
   * 해시 데이터 구조
     * [해시]({% post_url 2021-02-27-hashtable %})
     * [해시테이블]({% post_url 2021-02-27-hashtable %})
-  * 그래프 데이터 구조
+  * [그래프 데이터 구조]({% post_url 2021-02-27-graph-and-DFS-BFS %})
 
 ## 알고리즘
 
@@ -54,8 +54,8 @@ categories: [자료구조, 알고리즘]
   * 버킷 정렬
   * 기수 정렬
 * 경로 탐색 알고리즘
-  * 너비 우선 탐색(BFS)
-  * 높이 우선 탐색(DFS)
+  * [너비 우선 탐색(BFS)]({% post_url 2021-02-27-graph-and-DFS-BFS %})
+  * [높이 우선 탐색(DFS)]({% post_url 2021-02-27-graph-and-DFS-BFS %})
 * 군집화 알고리즘
 
 ## 기타
